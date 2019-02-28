@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BITP3453Labs</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="your_year_of_birth">Your year of birth?</string>
+    <string name="click_me">CLICK ME!</string>
+    <string name="this_is_first_activity">This is First Activity</string>
+    <string name="to_new_activity">To New Activity</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="take_picture">Take Picture!</string>
+    <string name="to_first_activity">To First Activity</string>
+</resources>

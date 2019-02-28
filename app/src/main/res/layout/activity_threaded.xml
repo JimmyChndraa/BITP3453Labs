@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreadedActivity">
+
+    <ImageView
+        android:id="@+id/imageVwProfile"
+        android:layout_width="243dp"
+        android:layout_height="244dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="405dp"
+        android:background="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@tools:sample/avatars[8]" />
+
+    <TextView
+        android:id="@+id/txtVwStatus"
+        android:layout_width="329dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="104dp"
+        android:text="@string/hello_world"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTakePic"
+        android:layout_width="327dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="fnTakePic"
+        android:text="@string/take_picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="325dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="596dp"
+        android:layout_marginEnd="41dp"
+        android:text="@string/to_first_activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
